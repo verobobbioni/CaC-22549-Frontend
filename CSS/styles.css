@@ -1,0 +1,16 @@
+h2{
+    color: rgb(187, 113, 22);
+}
+
+/*clases*/
+.SeccionPrincipal {
+    background-color: blueviolet;
+}
+
+.OtraClaseConRosa {
+    background-color: rgb(255, 137, 229);
+}
+
+.Form {
+    background-color: rgb(98, 180, 167);
+}
