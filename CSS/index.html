@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Formas de usar CSS (comentarios en HTML) -->
+    <style>
+        /* Comentarios en CSS - 1er FORMA */
+        h1 {
+            color: green;
+            font-size: 50px;
+        }
+        /* Hasta acá */
+        /* Estructura */
+        /* Por ID*/
+        #btn {
+            background-color: rgb(206, 169, 124);
+        }
+    </style>
+    <!-- 3er FORMA: Externo--> 
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+    <!-- 2da FORMA: Aplica estilo en linea usando el atributo style--> 
+    <section class="SeccionPrincipal">
+    <h1 style="color: rgb(248, 125, 125);">Css</h1>
+    <h2 style="color: rgb(208, 208, 230);">Sub Título</h2>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora commodi accusantium omnis qui aspernatur laborum veritatis asperiores distinctio beatae quis amet obcaecati sapiente, cupiditate temporibus dolorum fugiat eaque cum minima!
+    </p>
+    </section>
+
+    <section class="OtraClaseConRosa">
+        <h1>Hola!</h1>
+    </section>
+
+    <section class="Form">
+        <form action="alta.html">
+            <label for="">Nombre</label>
+            <input id="nombre" type="text" maxlength="50" required>
+
+            <button id="btn" >
+                Enviar
+            </button>
+
+        </form>
+    </section>
+    </main>
+</body>
+</html>
