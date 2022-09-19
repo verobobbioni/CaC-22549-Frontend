@@ -1,0 +1,33 @@
+/*Selector de Etiqueta*/
+p {
+    font-size: 20px;
+    /*font-family: 'Roboto', sans-serif;*/
+}
+
+/* body {
+    background-color:red;
+}
+*/
+
+/*Quiero que todos tngasn la misma fuente*/
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Herencia*/
+main .html{
+    background-color: aquamarine;
+}
+
+main section{
+    background-color: rgb(212, 210, 52) !important;
+}
+
+/*Especificidad*/
+/**style > etiqueta*/
+/*
+1- !important
+2- inline
+3- class
+4- etiqueta 
+*/
